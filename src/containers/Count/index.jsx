@@ -3,7 +3,7 @@
  * @Author: guoxiaoqiang
  * @Date: 2022-08-22 15:59:40
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-08-22 17:18:33
+ * @LastEditTime: 2022-08-23 14:15:58
  * @FilePath: index.jsx
  */
 import {connect} from 'react-redux'
@@ -31,7 +31,7 @@ import {add,reduction,asynchronous} from '../../redux/count_action'
 //     }
     
 // }
-export default connect({count:state},
+export default connect(state=>({count:state}),
                        {jia:add,
                        jian:reduction,
                        asyn:asynchronous})(CountUI)
