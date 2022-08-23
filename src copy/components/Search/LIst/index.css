@@ -1,0 +1,5 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 20px;
+}
