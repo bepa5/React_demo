@@ -25,6 +25,7 @@ class App extends Component {
             <div>
                 <Count></Count>
                 <Preson></Preson>
+                main
             </div>
         );
     }
