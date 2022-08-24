@@ -3,7 +3,7 @@
  * @Author: guoxiaoqiang
  * @Date: 2022-08-16 15:39:04
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-08-22 17:50:35
+ * @LastEditTime: 2022-08-24 09:54:19
  * @FilePath: App.jsx
  */
 /*
@@ -16,6 +16,7 @@
  */
 import React, { Component } from 'react';
 import Count from './containers/Count'
+import Preson from './containers/Preson'
 import '../node_modules/antd/dist/antd.css'
 class App extends Component {
 
@@ -23,6 +24,8 @@ class App extends Component {
         return (
             <div>
                 <Count></Count>
+                <Preson></Preson>
+                dev
             </div>
         );
     }
