@@ -3,15 +3,7 @@
  * @Author: guoxiaoqiang
  * @Date: 2022-08-16 15:39:04
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-08-24 16:10:49
- * @FilePath: App.jsx
- */
-/*
- * @Descripttion: 
- * @Author: guoxiaoqiang
- * @Date: 2022-07-19 09:50:21
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-08-10 09:53:15
+ * @LastEditTime: 2022-08-25 09:55:51
  * @FilePath: App.jsx
  */
 import React, { Component,Suspense,lazy } from 'react';
