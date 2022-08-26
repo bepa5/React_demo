@@ -11,13 +11,15 @@ import {NavLink,Routes,Route} from 'react-router-dom'
 // import Home from './components/Home'
 import Pure from './components/Pure'
 import P from './components/renderP'
+import Player from './components/Player'
+import RouterF from './components/RouterF'
 const Home=lazy(()=>import('./components/Home'))
 const About=lazy(()=>import('./components/About') )
 class App extends Component {
     render() {
         return (
             <div>
-               <NavLink to='/home'>
+               {/* <NavLink to='/home'>
                     home
                </NavLink>
                <NavLink to='/about'>
@@ -31,7 +33,9 @@ class App extends Component {
                </Suspense>
                <Pure></Pure>
                <br />
-                <P></P>
+                <P></P> */}
+                <RouterF></RouterF>
+                {/* <Player></Player> */}
             </div>
         );
     }
