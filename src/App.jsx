@@ -35,7 +35,7 @@ class App extends Component {
                <br />
                 <P></P> */}
                 <RouterF></RouterF>
-                {/* <Player></Player> */}
+                <Player></Player>
             </div>
         );
     }
